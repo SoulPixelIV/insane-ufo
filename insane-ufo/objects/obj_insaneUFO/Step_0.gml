@@ -1,7 +1,9 @@
 // MOVEMENT
 // TODO: momentum/acceleration
-x += horspeed;
-y += verspeed;
+if (!beaming) {
+	x += horspeed;
+	y += verspeed;
+}
 
 horspeed = 0
 verspeed = 0
@@ -21,6 +23,21 @@ if (keyboard_check(ord("D"))) {
 
 //Activate beam
 if (keyboard_check(vk_space)) {
+	if (distance_to_object(planets) < 64)
+	{
+		beaming = true;
+	}
+}
+else {
+	beaming = false;
+}
+
+if (beaming) {
+	nearestPlanet = instance_nearest(x, y, planets);
+	if (instance_exists(nearestPlanet)) {
+		x = nearestPlanet.x;
+		y = nearestPlanet.y - 56;
+	}
 	sprite_index = spr_insaneUFOBeam;
 }
 else {

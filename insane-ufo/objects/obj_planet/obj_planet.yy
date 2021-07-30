@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "planets",
+    "path": "objects/planets/planets.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

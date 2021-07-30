@@ -2,11 +2,12 @@
   "resources": [
     {"id":{"name":"spr_insaneUFO","path":"sprites/spr_insaneUFO/spr_insaneUFO.yy",},"order":0,},
     {"id":{"name":"obj_planet","path":"objects/obj_planet/obj_planet.yy",},"order":1,},
-    {"id":{"name":"spr_insaneUFOBeam","path":"sprites/spr_insaneUFOBeam/spr_insaneUFOBeam.yy",},"order":2,},
+    {"id":{"name":"spr_insaneUFOBeam","path":"sprites/spr_insaneUFOBeam/spr_insaneUFOBeam.yy",},"order":1,},
     {"id":{"name":"spr_planet","path":"sprites/spr_planet/spr_planet.yy",},"order":1,},
     {"id":{"name":"particleTest","path":"objects/particleTest/particleTest.yy",},"order":1,},
     {"id":{"name":"obj_insaneUFO","path":"objects/obj_insaneUFO/obj_insaneUFO.yy",},"order":0,},
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":0,},
+    {"id":{"name":"planets","path":"objects/planets/planets.yy",},"order":0,},
     {"id":{"name":"spr_signBlue","path":"sprites/spr_signBlue/spr_signBlue.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -42,6 +43,8 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Parents.yy","order":15,"resourceVersion":"1.0","name":"Parents","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/insaneUFO.yy","order":4,"resourceVersion":"1.0","name":"insaneUFO","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
