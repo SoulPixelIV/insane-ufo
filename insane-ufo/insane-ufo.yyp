@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"ufoSprite","path":"sprites/ufoSprite/ufoSprite.yy",},"order":0,},
+    {"id":{"name":"obj_insaneUFO","path":"objects/obj_insaneUFO/obj_insaneUFO.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
