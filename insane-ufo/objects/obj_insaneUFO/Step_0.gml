@@ -18,3 +18,11 @@ if (keyboard_check(ord("A"))) {
 if (keyboard_check(ord("D"))) {
 	horspeed = movspeed;
 }
+
+//Activate beam
+if (keyboard_check(vk_space)) {
+	sprite_index = spr_insaneUFOBeam;
+}
+else {
+	sprite_index = spr_insaneUFO;
+}
