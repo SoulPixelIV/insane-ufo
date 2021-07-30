@@ -37,6 +37,9 @@ if (beaming) {
 	if (instance_exists(nearestPlanet)) {
 		x = nearestPlanet.x;
 		y = nearestPlanet.y - 56;
+		
+		// TODO : Add timer so beaming is not instant
+		nearestPlanet.activejob = 0;
 	}
 	sprite_index = spr_insaneUFOBeam;
 }
