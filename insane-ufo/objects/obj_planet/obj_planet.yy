@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_insaneUFO",
-    "path": "sprites/spr_insaneUFO/spr_insaneUFO.yy",
+    "name": "spr_planet",
+    "path": "sprites/spr_planet/spr_planet.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_insaneUFO",
+  "name": "obj_planet",
   "tags": [],
   "resourceType": "GMObject",
 }
