@@ -1,8 +1,10 @@
-x = horspeed;
-y = verspeed;
+// MOVEMENT
+// TODO: momentum/acceleration
+x += horspeed;
+y += verspeed;
 
-verspeed = 0;
-horspeed = 0;
+horspeed = 0
+verspeed = 0
 
 if (keyboard_check(ord("W"))) {
 	verspeed = -movspeed;
