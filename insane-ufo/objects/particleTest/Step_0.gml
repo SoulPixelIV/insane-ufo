@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (mouse_check_button(mb_left)) {
-	part_particles_create(global.partSystem, mouse_x, mouse_y, global.ptBasic, 1)	
-}
+
+	randX = random_range(0,854)
+	randY = random_range(0,480)
+	
+	part_particles_create(global.partSystem, randX, randY, global.ptBasic, 1)	
