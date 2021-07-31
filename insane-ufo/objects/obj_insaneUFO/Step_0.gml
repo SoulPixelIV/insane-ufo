@@ -39,8 +39,9 @@ if (beaming) {
 		y = nearestPlanet.y - 56;
 		
 		// TODO : Add timer so beaming is not instant
+		passenger[0] = nearestPlanet.activejob;
 		nearestPlanet.activejob = 0;
-		passenger = 1;
+		currPassengerCount++;
 	}
 	sprite_index = spr_insaneUFOBeam;
 }

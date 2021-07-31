@@ -2,5 +2,5 @@ draw_self();
 
 if (activejob)
 {
-	draw_sprite(spr_signBlue, 0, x, y - 24);
+	draw_sprite(spr_signYellow, 0, x, y - 24);
 }
