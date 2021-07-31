@@ -7,6 +7,7 @@
     {"id":{"name":"particleTest","path":"objects/particleTest/particleTest.yy",},"order":1,},
     {"id":{"name":"obj_insaneUFO","path":"objects/obj_insaneUFO/obj_insaneUFO.yy",},"order":0,},
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":0,},
+    {"id":{"name":"spr_planet2","path":"sprites/spr_planet2/spr_planet2.yy",},"order":5,},
     {"id":{"name":"planets","path":"objects/planets/planets.yy",},"order":0,},
     {"id":{"name":"spr_signBlue","path":"sprites/spr_signBlue/spr_signBlue.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

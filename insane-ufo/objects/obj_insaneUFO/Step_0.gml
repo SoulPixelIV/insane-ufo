@@ -40,6 +40,7 @@ if (beaming) {
 		
 		// TODO : Add timer so beaming is not instant
 		nearestPlanet.activejob = 0;
+		passenger = 1;
 	}
 	sprite_index = spr_insaneUFOBeam;
 }
