@@ -4,6 +4,7 @@
     {"id":{"name":"obj_planet","path":"objects/obj_planet/obj_planet.yy",},"order":1,},
     {"id":{"name":"spr_insaneUFOBeam","path":"sprites/spr_insaneUFOBeam/spr_insaneUFOBeam.yy",},"order":1,},
     {"id":{"name":"spr_planet","path":"sprites/spr_planet/spr_planet.yy",},"order":1,},
+    {"id":{"name":"ufo_beam_sound","path":"sounds/ufo_beam_sound/ufo_beam_sound.yy",},"order":0,},
     {"id":{"name":"particleTest","path":"objects/particleTest/particleTest.yy",},"order":1,},
     {"id":{"name":"spr_passengerBlue","path":"sprites/spr_passengerBlue/spr_passengerBlue.yy",},"order":7,},
     {"id":{"name":"spr_passengerYellow","path":"sprites/spr_passengerYellow/spr_passengerYellow.yy",},"order":8,},

@@ -42,9 +42,13 @@ if (beaming) {
 		passenger[0] = nearestPlanet.activejob;
 		nearestPlanet.activejob = 0;
 		currPassengerCount++;
+		if !audio_is_playing(ufo_beam_sound) {
+			audio_play_sound(ufo_beam_sound, 1, true);
+		}
 	}
 	sprite_index = spr_insaneUFOBeam;
 }
 else {
 	sprite_index = spr_insaneUFO;
+	audio_stop_sound(ufo_beam_sound)
 }
