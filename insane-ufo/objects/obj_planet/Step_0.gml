@@ -3,7 +3,9 @@ if (activejob == 0) {
 }
 
 if (calltimer < 0) {
-	activejob = 1;
+	if (activejob == 0) {
+		activejob = choose(1, 3, 4);
+	}
 	calltimer = random_range(500, 1500);
 	
 	if !audio_is_playing(want_pickup_1) {

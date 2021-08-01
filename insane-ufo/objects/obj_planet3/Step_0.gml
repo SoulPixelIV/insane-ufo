@@ -4,7 +4,7 @@ if (activejob == 0) {
 
 if (calltimer < 0) {
 	if (activejob == 0) {
-		activejob = choose(2, 3, 4);
+		activejob = choose(1, 2, 4);
 	}
 	calltimer = random_range(500, 1500);
 	
