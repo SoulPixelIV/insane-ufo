@@ -14,6 +14,7 @@
     {"id":{"name":"obj_insaneUFO","path":"objects/obj_insaneUFO/obj_insaneUFO.yy",},"order":0,},
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":0,},
     {"id":{"name":"spr_planet2","path":"sprites/spr_planet2/spr_planet2.yy",},"order":5,},
+    {"id":{"name":"playSoundEffect","path":"scripts/playSoundEffect/playSoundEffect.yy",},"order":1,},
     {"id":{"name":"obj_planet3","path":"objects/obj_planet3/obj_planet3.yy",},"order":3,},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":16,},
     {"id":{"name":"spr_planet4","path":"sprites/spr_planet4/spr_planet4.yy",},"order":10,},
