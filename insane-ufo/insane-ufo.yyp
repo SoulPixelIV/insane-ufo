@@ -11,6 +11,8 @@
     {"id":{"name":"spr_passengerWhite","path":"sprites/spr_passengerWhite/spr_passengerWhite.yy",},"order":13,},
     {"id":{"name":"particleTest","path":"objects/particleTest/particleTest.yy",},"order":1,},
     {"id":{"name":"spr_passengerBlue","path":"sprites/spr_passengerBlue/spr_passengerBlue.yy",},"order":7,},
+    {"id":{"name":"obj_planet4","path":"objects/obj_planet4/obj_planet4.yy",},"order":4,},
+    {"id":{"name":"spr_hooman","path":"sprites/spr_hooman/spr_hooman.yy",},"order":11,},
     {"id":{"name":"spr_passengerYellow","path":"sprites/spr_passengerYellow/spr_passengerYellow.yy",},"order":8,},
     {"id":{"name":"obj_insaneUFO","path":"objects/obj_insaneUFO/obj_insaneUFO.yy",},"order":0,},
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":0,},
