@@ -6,7 +6,7 @@
 	
 	//TODO: spawn fewer and have static stars in background image
 	// increase range to decrease chance of spawning
-	randParticleSpawn = irandom_range(0,2)
+	randParticleSpawn = irandom_range(0,3)
 	
 	if (randParticleSpawn == 1) {
 		part_particles_create(global.partSystem, randX, randY, global.ptBasic, 1)	
