@@ -38,6 +38,7 @@ else {
 	beaming = false;
 }
 
+
 if (beaming) {
 	beamTimer -= 1;
 	
@@ -57,6 +58,7 @@ if (beaming) {
 					passengers[i] = nearestPlanet.activejob;
 					nearestPlanet.activejob = 0;
 					currPassengerCount++;
+					playSoundEffect(pickup_1, 1, false);
 					break;
 				}
 			}
