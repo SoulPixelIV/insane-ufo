@@ -3,9 +3,6 @@ randomize() // RNG!!!
 global.partSystem = part_system_create();
 part_system_depth(global.partSystem, -1000);
 
-//Deactivate automatic particle drawing so we can activate later in background
-part_system_automatic_draw(global.partSystem, false); 
-
 
 // draw static star background
 global.staticPartStytem = part_system_create();
@@ -24,3 +21,7 @@ for (i = 0; i < 50; i += 1) {
 }
 
 part_system_automatic_update(global.staticPartStytem, false);
+
+//Deactivate automatic particle drawing so we can activate later in background
+part_system_automatic_draw(global.partSystem, false);
+part_system_automatic_draw(global.staticPartStytem, false);
