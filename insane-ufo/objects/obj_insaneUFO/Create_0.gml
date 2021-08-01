@@ -1,6 +1,6 @@
 movspeed = 2; //Movement speed of UFO
 beaming = false; //True if beaming people from planet
-beamTimer = 200;
+beamTimer = 120;
 passengers = [0,0,0,0];  //Passenger list
 currPassengerCount = 0;
 
