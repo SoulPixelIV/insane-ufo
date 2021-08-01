@@ -1,5 +1,7 @@
 draw_self();
 
+draw_sprite(spr_inventory, 0, x, y - 42);
+
 //Draw inventory
 for (i = 0; i < array_length(passengers); i++) {
 	if (passengers[i] == 1) {
