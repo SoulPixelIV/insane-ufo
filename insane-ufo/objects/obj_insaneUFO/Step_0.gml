@@ -23,7 +23,7 @@ if (keyboard_check(ord("D"))) {
 
 //Activate beam
 if (keyboard_check(vk_space)) {
-	if (distance_to_object(planets) < 64)
+	if (distance_to_object(planets) < 32)
 	{
 		nearestPlanet = instance_nearest(x, y, planets);
 		//Check if inventory has fitting passengers
