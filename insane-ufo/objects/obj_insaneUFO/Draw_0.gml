@@ -20,3 +20,4 @@ for (i = 0; i < array_length(passengers); i++) {
 
 draw_text_color(100, 100, passengers, c_white, c_white, c_white, c_white, 1);
 draw_text_color(x + 64, y, beamTimer, c_white, c_white, c_white, c_white, 1);
+draw_text_color(x + 128, y, beamToPlanetTimer, c_white, c_white, c_white, c_white, 1);
