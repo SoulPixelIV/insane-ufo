@@ -5,20 +5,50 @@ if (!beaming) {
 	y += verspeed;
 }
 
-horspeed = 0
-verspeed = 0
-
 if (keyboard_check(ord("W"))) {
-	verspeed = -movspeed;
+	if (verspeed > -movspeedMax) {
+		verspeed -= movspeed;
+	}
 }
 if (keyboard_check(ord("S"))) {
-	verspeed = movspeed;
+	if (verspeed < movspeedMax) {
+		verspeed += movspeed;
+	}
 }
 if (keyboard_check(ord("A"))) {
-	horspeed = -movspeed;
+	if (horspeed > -movspeedMax) {
+		horspeed -= movspeed;
+	}
 }
 if (keyboard_check(ord("D"))) {
-	horspeed = movspeed;
+	if (horspeed < movspeedMax) {
+		horspeed += movspeed;
+	}
+}
+
+//If no key is being pressed
+if (!keyboard_check(ord("W")) && !keyboard_check(ord("A")) && !keyboard_check(ord("S")) && !keyboard_check(ord("D"))) {
+	if (horspeed > 0.1 || horspeed < -0.1) {
+		if (horspeed > 0.1) {
+			horspeed -= movspeed;
+		}
+		if (horspeed < -0.1) {
+			horspeed += movspeed;
+		}
+	} else {
+		horspeed = 0;
+	}
+	
+	if (verspeed > 0.1 || verspeed < -0.1) {
+		if (verspeed > 0.1) {
+			verspeed -= movspeed;
+		}
+		if (verspeed < -0.1) {
+			verspeed += movspeed;
+		}
+	} else {
+		verspeed = 0;
+	}
 }
 
 //Activate beam

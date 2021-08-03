@@ -1,4 +1,5 @@
-movspeed = 2; //Movement speed of UFO
+movspeed = 0.04; //Movement speed of UFO
+movspeedMax = 2;
 beaming = false; //True if beaming people from planet
 beamingToPlanet = false; //True if beaming people to planet
 beamTimer = 120;
