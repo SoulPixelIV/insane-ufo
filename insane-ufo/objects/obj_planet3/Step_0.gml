@@ -1,6 +1,6 @@
 if (activejob == 0) {
 	calltimer -= 1;
-	gameovertimer = 1000;
+	gameovertimer = 2000;
 } else {
 	gameovertimer -= 1;
 }

@@ -138,6 +138,7 @@ if (beamingToPlanet) {
 					if (!audio_is_playing(successful_carry_1)) {
 						audio_play_sound(successful_carry_1, 1, false);
 					}
+					highscore++;
 					beamingToPlanet = false;
 					break;
 				}

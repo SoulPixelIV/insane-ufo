@@ -1,5 +1,8 @@
 movspeed = 0.04; //Movement speed of UFO
 movspeedMax = 2;
+
+highscore = 0;
+
 beaming = false; //True if beaming people from planet
 beamingToPlanet = false; //True if beaming people to planet
 beamTimer = 120;
