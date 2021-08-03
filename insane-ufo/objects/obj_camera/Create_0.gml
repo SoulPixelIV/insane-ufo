@@ -9,3 +9,6 @@ camera_set_view_mat(camera, vm);
 camera_set_proj_mat(camera, pm);
 
 view_camera[0] = camera;
+
+xView = 854;
+yView = 480;
