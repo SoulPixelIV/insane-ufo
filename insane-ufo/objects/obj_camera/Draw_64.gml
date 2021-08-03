@@ -3,3 +3,7 @@ draw_text(16, 16, "FPS: " + string(fps_real));
 if (instance_exists(obj_insaneUFO)) {
 	draw_text(16, 48, "SCORE: " + string(obj_insaneUFO.highscore));
 }
+
+if (room == Room_GameOver) {
+	draw_text(128, 128, "GAME OVER!");
+}

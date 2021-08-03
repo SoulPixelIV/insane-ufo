@@ -18,4 +18,5 @@ if (calltimer < 0) {
 
 //Game Over
 if (gameovertimer < 0) {
+	room_goto(Room_GameOver);
 }
