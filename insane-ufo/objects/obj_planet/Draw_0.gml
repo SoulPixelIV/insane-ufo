@@ -1,5 +1,7 @@
 draw_self();
 
+draw_text(x + 64, y, gameovertimer);
+
 if (activejob == 1)
 {
 	draw_sprite(spr_signYellow, 0, x, y - 24);

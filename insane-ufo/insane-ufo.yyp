@@ -37,6 +37,7 @@
     {"id":{"name":"ufo_beamBlue_sound","path":"sounds/ufo_beamBlue_sound/ufo_beamBlue_sound.yy",},"order":4,},
     {"id":{"name":"spr_signYellow","path":"sprites/spr_signYellow/spr_signYellow.yy",},"order":6,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":3,},
+    {"id":{"name":"Room_GameOver","path":"rooms/Room_GameOver/Room_GameOver.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -55,6 +56,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room_GameOver","path":"rooms/Room_GameOver/Room_GameOver.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
