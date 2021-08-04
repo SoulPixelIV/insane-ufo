@@ -10,5 +10,5 @@ camera_set_proj_mat(camera, pm);
 
 view_camera[0] = camera;
 
-xView = 854;
-yView = 480;
+zoomingX=obj_focusPoint.x
+zoomingY=obj_focusPoint.y

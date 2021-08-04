@@ -71,7 +71,7 @@ if (beaming) {
 					passengers[i] = nearestPlanet.activejob;
 					nearestPlanet.activejob = 0;
 					currPassengerCount++;
-					playSoundEffect(pickup_1, 1, false);
+					playSoundEffect(pickup_2, 1, false);
 					break;
 				}
 			}

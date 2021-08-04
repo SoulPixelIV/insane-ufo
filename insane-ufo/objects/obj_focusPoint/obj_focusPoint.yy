@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_passengerWhite",
-    "path": "sprites/spr_passengerWhite/spr_passengerWhite.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
